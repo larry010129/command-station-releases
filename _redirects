@@ -1,0 +1,4 @@
+# The app asks for these URLs; the files live under /releases/by-number and /releases/current.json
+/releases/current                    /releases/current.json                    200
+/releases/:n/manifest.json           /releases/by-number/:n/manifest.json      200
+/releases/:n/content.json            /releases/by-number/:n/content.json       200
