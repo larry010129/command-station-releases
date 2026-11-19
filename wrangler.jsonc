@@ -14,4 +14,7 @@
       "database_id": "1dcff2e4-a47e-4a4b-84ed-3a2749484477"
     }
   ]
+,
+  "keep_vars": true,
+  "vars": { "PUBLIC_KEY": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAan8+LuhMQE917GeaCqJisDHujxEMg7KDXtsufefwP4g=\n-----END PUBLIC KEY-----" }
 }
