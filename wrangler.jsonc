@@ -1,5 +1,17 @@
 {
   "name": "command-station-releases",
+  "main": "src/index.js",
   "compatibility_date": "2026-11-01",
-  "assets": { "directory": "./public" }
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "command-station",
+      "database_id": "1dcff2e4-a47e-4a4b-84ed-3a2749484477"
+    }
+  ]
 }
