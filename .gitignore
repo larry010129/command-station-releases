@@ -1,3 +1,7 @@
 .wrangler/
 .dev.vars
 node_modules/
+.env*
+!.env.production
+.claude/settings.local.json
+.claude/worktrees/
